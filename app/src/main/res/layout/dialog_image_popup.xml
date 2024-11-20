@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:src="@drawable/close_icon_foreground"/>
+    <ImageView
+        android:id="@+id/popupImageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_profile" /> <!-- Placeholder image -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/update_profile_image_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/add_icon_foreground"/>
+
+        <ImageView
+            android:id="@+id/info_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info_foreground"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:letterSpacing="0.05"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/username_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Glad to have you here"
+            android:textSize="30dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:text="Welcome to Hyphene let's chat \nEnjoy your Hypheny!"
+            android:textSize="26dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Signup"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:letterSpacing="0.05"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_margin="16dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hypheny"
+            android:layout_gravity="center"
+            android:letterSpacing="0.05"/>
+    </LinearLayout>
+</LinearLayout>

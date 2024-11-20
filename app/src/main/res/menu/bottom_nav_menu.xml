@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_conversations"
+        android:icon="@drawable/conversation_icon_foreground"
+        android:title="home"/>
+
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/fiends_icon_foreground"
+        android:title="Friends"/>
+
+    <item
+        android:id="@+id/nav_new_contacts"
+        android:title="New contacts"
+        android:icon="@drawable/contacts_icon_foreground"/>
+
+    <item
+        android:id="@+id/more_options"
+        android:title="more"
+        android:icon="@drawable/more_options_icon_foreground"/>
+</menu>
